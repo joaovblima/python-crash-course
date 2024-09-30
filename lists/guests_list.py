@@ -1,0 +1,32 @@
+guests = ["Ingrid", "Maria Sofia", "Maria Alice"]
+print(f"{guests[0]}, {guests[1]}, {guests[2]} vocês gostariam de ir jantar? ")
+print()
+print(f"{guests[1]} não vai mais jantar.")
+guests.pop(1)
+guests.append("Lidiane")
+print(f"Agora sim, {guests[0]}, {guests[1]}, {guests[2]} vocês gostariam de ir jantar? ")
+print()
+print("Encontrei uma mesa maior!")
+guests.insert(0, "Lele")
+guests.insert(3, "Matheus")
+guests.append("Vitoria")
+for guest in guests:
+    print(f"Bora se entupir de comida {guest}?")
+
+print()
+print("Infelizmente so posso convidar 2 pessoas para comer, a grana ta curta.")
+primeira_remocao = guests.pop()
+print(f"Você não vai mais para o jantar {primeira_remocao}, tenha uma boa noite")
+segunda_remocao = guests.pop()
+print(f"Você não vai mais para o jantar {segunda_remocao}, tenha uma boa noite")
+terceira_remocao = guests.pop()
+print(f"Você não vai mais para o jantar {terceira_remocao}, tenha uma boa noite")
+quarta_remocao = guests.pop()
+print(f"Você não vai mais para o jantar {quarta_remocao}, tenha uma boa noite")
+print()
+print(f"{guests[0]}, {guests[1]} voces ainda estao convidados.")
+print()
+print(guests)
+del guests[0]
+del guests[0]
+print(guests)
