@@ -24,9 +24,6 @@ class Car:
         self.odemeter_reading += miles
 
 
-new_car = Car("gol", "volkswagen", 2008)
-print(new_car.get_descriptive_name())
-new_car.update_odometer(27_200)
-new_car.read_odemeter()
-new_car.increment_odometer(200)
-new_car.read_odemeter()
+
+
+

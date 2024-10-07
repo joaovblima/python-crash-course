@@ -21,10 +21,6 @@ class User:
 
 
 
-new_login = User("Joao", "Lima")
-new_login.increment_login_attempts(1)
-new_login.increment_login_attempts(1)
-new_login.increment_login_attempts(1)
-new_login.increment_login_attempts(1)
-print(f"Tentativas de login: {new_login.login_attempts}")
-new_login.reset_login_attempts()
+
+
+    

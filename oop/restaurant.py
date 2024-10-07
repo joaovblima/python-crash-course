@@ -6,7 +6,7 @@ class Restaurant:
         self.number_served = 0
     
     def describe_restaurant(self):
-        print(f"O restaurante {self.restaurant_name}, tem uma cozinha {self.cuisine_type}")
+        print(f"O restaurante {self.restaurant_name}, tem uma cozinha {self.cuisine_type}, serviu {self.number_served}")
     
 
     def open_restaurant(self):
@@ -20,11 +20,3 @@ class Restaurant:
      
 
 
-restaurant = Restaurant("Don Martin", "Italiana")
-restaurant.number_served = 10
-restaurant.describe_restaurant()
-print(f"o restaurante serviu {restaurant.number_served} pessoas")
-restaurant.set_number_served(25)
-print(f"o restaurante serviu {restaurant.number_served} pessoas")
-restaurant.increment_number_served(20)
-print(f"o restaurante serviu {restaurant.number_served} pessoas")
